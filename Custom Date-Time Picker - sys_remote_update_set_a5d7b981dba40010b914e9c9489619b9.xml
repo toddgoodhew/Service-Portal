@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-10-15 18:47:21">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Create a custom Date/Time Picker for  the Service Portal that allows for displaying the Date and Time side-by-side, increasing the minute step, and changing the starting day of week value.
+
+Reference:
+https://www.esmalliance.com/2019/01/18/customisation-of-the-service-portals-date-and-time-picker/</description>
+<inserted/>
+<name>Custom Service Portal Date-Time Picker</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>fdd37c01dba00010b914e9c948961934</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>tgoodhew</sys_created_by>
+<sys_created_on>2019-10-15 18:47:21</sys_created_on>
+<sys_id>a5d7b981dba40010b914e9c9489619b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>tgoodhew</sys_updated_by>
+<sys_updated_on>2019-10-15 18:47:21</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_ng_pro_sp_widget_b6388d45dbe00010b914e9c948961997</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE"><sp_angular_provider display_value="spCustomDatePicker">f4aa7cc5dba00010b914e9c948961992</sp_angular_provider><sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>tgoodhew</sys_created_by><sys_created_on>2019-10-15 15:19:22</sys_created_on><sys_id>b6388d45dbe00010b914e9c948961997</sys_id><sys_mod_count>0</sys_mod_count><sys_name>spCustomDatePicker.Header Menu</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_b6388d45dbe00010b914e9c948961997</sys_update_name><sys_updated_by>tgoodhew</sys_updated_by><sys_updated_on>2019-10-15 15:19:22</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+<payload_hash>-722473276</payload_hash>
+<remote_update_set display_value="Custom Service Portal Date-Time Picker">a5d7b981dba40010b914e9c9489619b9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>tgoodhew</sys_created_by>
+<sys_created_on>2019-10-15 18:47:21</sys_created_on>
+<sys_id>25d7b981dba40010b914e9c9489619ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16dd00095670000001</sys_recorded_at>
+<sys_updated_by>tgoodhew</sys_updated_by>
+<sys_updated_on>2019-10-15 18:47:21</sys_updated_on>
+<table/>
+<target_name>spCustomDatePicker.Header Menu</target_name>
+<type>Angular Providers</type>
+<update_domain>global</update_domain>
+<update_guid>fe388d45a7e000109760db2e2e33f898</update_guid>
+<update_guid_history>fe388d45a7e000109760db2e2e33f898:-722473276</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_related_sp_ng_template_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="sp_ng_template" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Angular ng-template - Default view" name="sp_ng_template" related_list="NULL" sys_domain="global" view="Default view">fe36c1cddba00010b914e9c94896198e</list_id><order_by/><position>0</position><related_list>REL:67bdac52374010008687ddb1967334ee</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>tgoodhew</sys_created_by><sys_created_on>2019-10-15 15:10:37</sys_created_on><sys_id>fe36c1cddba00010b914e9c94896198f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tgoodhew</sys_updated_by><sys_updated_on>2019-10-15 15:10:37</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Angular ng-template - Default view" name="sp_ng_template" related_list="NULL" sys_domain="global" view="Default view">fe36c1cddba00010b914e9c94896198e</list_id><order_by/><position>1</position><related_list>REL:df364130c3110100bac1addbdfba8f78</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>tgoodhew</sys_created_by><sys_created_on>2019-10-15 15:10:37</sys_created_on><sys_id>7a36c1cddba00010b914e9c948961990</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tgoodhew</sys_updated_by><sys_updated_on>2019-10-15 15:10:37</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Angular ng-template - Default view</calculated_name><filter/><name>sp_ng_template</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>tgoodhew</sys_created_by><sys_created_on>2019-10-15 15:10:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fe36c1cddba00010b914e9c94896198e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Angular ng-template - Default view</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_related_sp_ng_template_null</sys_update_name><sys_updated_by>tgoodhew</sys_updated_by><sys_updated_on>2019-10-15 15:10:37</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+<payload_hash>903552104</payload_hash>
+<remote_update_set display_value="Custom Service Portal Date-Time Picker">a5d7b981dba40010b914e9c9489619b9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>tgoodhew</sys_created_by>
+<sys_created_on>2019-10-15 18:47:21</sys_created_on>
+<sys_id>6dd7b981dba40010b914e9c9489619ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16dcff892630000001</sys_recorded_at>
+<sys_updated_by>tgoodhew</sys_updated_by>
+<sys_updated_on>2019-10-15 18:47:21</sys_updated_on>
+<table>sp_ng_template</table>
+<target_name>Angular ng-template</target_name>
+<type>Related Lists</type>
+<update_domain>global</update_domain>
+<update_guid>7e36c1cdcfa00010a4fa4859f6fff491</update_guid>
+<update_guid_history>7e36c1cdcfa00010a4fa4859f6fff491:903552104</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_ng_template_bedda889db600010b914e9c9489619d4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_ng_template"&gt;&lt;sp_ng_template action="INSERT_OR_UPDATE"&gt;&lt;id&gt;sp_form_field.xml&lt;/id&gt;&lt;sp_widget display_value="Header Menu"&gt;5ef595c1cb12020000f8d856634c9c6e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_ng_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tgoodhew&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-15 13:49:59&lt;/sys_created_on&gt;&lt;sys_id&gt;bedda889db600010b914e9c9489619d4&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;sp_form_field.xml&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_ng_template_bedda889db600010b914e9c9489619d4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;tgoodhew&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-15 17:56:37&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="form-group" ng-class="{'form-group-has-focus': hasValueOrFocus()}"&gt;
+  &lt;label class="field-label" ng-if="::c.showLabel(field)" for="sp_formfield_{{::(field.type=='html' || field.type=='translated_html') ? (field.sys_id || field.name) : field.name }}" title="{{::field.hint}}" aria-label="{{field.type != 'reference' ? field.hint : field.hint + ' '+ getReferenceLabelContents(field)}} " tooltip-right="true"&gt;
+    &lt;span class="field-decorations"&gt;
+      &lt;span ng-show="field.mandatory" class="fa fa-asterisk mandatory" ng-class="{'mandatory-filled': field.mandatory_filled()}" title="Required" style="padding-right: .25em" aria-label="{{field.mandatory_filled()? 'Required Filled ' : 'Required '}}"&gt;
+      &lt;/span&gt;
+      &lt;span ng-repeat="decoration in field.decorations" class="decoration {{decoration.icon}}" title="{{decoration.text}}"&gt;
+      &lt;/span&gt;
+    &lt;/span&gt;
+    {{field.label}}
+  &lt;/label&gt;
+  &lt;span class="type-{{::field.type}} field-actual" ng-switch="::field.type" ng-class="{'state-mandatory': field.mandatory, 'state-readonly': field.read_only, 'state-hidden': field.hidden, 'has-error': field.isInvalid}"&gt;
+    &lt;div ng-if="::c.showLabel(field)"&gt;
+      &lt;sp-help-tag field="::field"&gt;
+      &lt;/sp-help-tag&gt;
+    &lt;/div&gt;
+    &lt;span ng-switch-when="boolean"&gt;
+      &lt;label title="{{::field.hint}}" tooltip-right="true" for="sp_formfield_{{::field.name}}"&gt;
+        &lt;input type="checkbox" name="{{::field.name}}" ng-model="fieldValue" ng-true-value="'true'" ng-false-value="'false'" ng-model-options="{getterSetter: true}" ng-disabled="field.isReadonly()" id="sp_formfield_{{::field.name}}"&gt;
+        &lt;/input&gt;
+      	&lt;span style="margin-left: 1em;"&gt;
+        	{{field.label}}
+      	&lt;/span&gt;
+      &lt;/label&gt;
+    &lt;span class="sr-only"&gt;
+      {{::field.hint}}
+    &lt;/span&gt;
+    &lt;span ng-if="::enhancePriceLabels(field)"&gt;
+      {{getCheckBoxPrice(field)}}
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;sp-choice-list ng-switch-when="choice" field="field" glide-form="getGlideForm()" default-value-setter="setDefaultValue(fieldName,fieldInternalValue,fieldDisplayValue)"&gt;
+  &lt;/sp-choice-list&gt;
+  &lt;span ng-switch-when="boolean_confirm"&gt;
+    &lt;span class="fa fa-asterisk mandatory" ng-class="{'mandatory-filled': field.mandatory_filled()}" title="Required" style="padding-right: .25em"&gt;
+    &lt;/span&gt;
+    &lt;label title="{{::field.hint}}" tooltip-right="true" for="sp_formfield_{{::field.name}}"&gt;
+      &lt;input type="checkbox" name="{{::field.name}}" ng-model="fieldValue" ng-true-value="'true'" ng-false-value="'false'" ng-model-options="{getterSetter: true}" ng-disabled="field.isReadonly()" id="sp_formfield_{{::field.name}}"&gt;
+      &lt;/input&gt;
+    &lt;span style="margin-left: 1em;"&gt;
+      &lt;span class="sr-only" ng-show="!field.mandatory_filled()"&gt;
+        Required -
+      &lt;/span&gt;
+      &lt;span class="sr-only" ng-show="field.mandatory_filled()"&gt;
+        Required Filled -
+      &lt;/span&gt;
+      {{field.label}}
+    &lt;/span&gt;
+    &lt;/label&gt;
+  &lt;span class="sr-only"&gt;
+    {{::field.hint}}
+  &lt;/span&gt;
+  &lt;span ng-if="::field._pricing"&gt;
+    {{getCheckBoxPrice(field)}}
+  &lt;/span&gt;
+  &lt;/span&gt;
+&lt;sp-color-picker ng-switch-when="color" field="field" glide-form="getGlideForm()" sn-change="fieldValue(newValue)" sn-disabled="field.isReadonly()" ng-if="c.depsLoaded"&gt;
+&lt;/sp-color-picker&gt;
+&lt;sp-css-editor ng-switch-when="css" class="form-control" field="field" id="sp_formfield_{{::field.name}}" data-length="4000" sn-disabled="field.isReadonly()" sn-change="stagedValueChange()" sn-blur="fieldValue(field.stagedValue)" glide-form="getGlideForm()" ng-if="c.depsLoaded"&gt;
+&lt;/sp-css-editor&gt;
+&lt;span ng-switch-when="document_id" class="padder"&gt;
+  {{field.displayValue}}
+&lt;/span&gt;
+&lt;span ng-switch-when="domain_id" class="padder"&gt;
+  {{field.displayValue}}
+&lt;/span&gt;
+&lt;sp-duration-element ng-switch-when="glide_duration" field="field" ng-model="fieldValue" ng-model-options="{getterSetter: true}"&gt;
+&lt;/sp-duration-element&gt;
+&lt;input ng-switch-when="url" name="{{::field.name}}" aria-label="{{::field.label}}" id="sp_formfield_{{::field.name}}" autocomplete="off" class="form-control" ng-model="field.stagedValue" ng-model-options="{allowInvalid: true}" ng-change="stagedValueChange()" placeholder="{{::field.placeholder}}" ng-disabled="field.isReadonly()" maxlength="{{::field.max_length}}" data-type="{{::field.type}}"&gt;
+&lt;/input&gt;
+&lt;sn-field-reference ng-switch-when="field_name" field="field" id="sp_formfield_{{::field.name}}" glide-form="getGlideForm()" sn-change="fieldValue(newValue)" sn-disabled="field.isReadonly()"&gt;
+&lt;/sn-field-reference&gt;
+&lt;sn-field-list-element ng-switch-when="field_list" field="field" glide-form="getGlideForm()" sn-disabled="field.isReadonly()" sn-change="fieldValue(newValue, displayValue)"&gt;
+&lt;/sn-field-list-element&gt;
+&lt;sp-date-picker sn-change="fieldValue(newValue, displayValue)" ng-switch-when="glide_date" field="field" sn-disabled="field.isReadonly()" ng-model="field.stagedValue" ng-model-options="{getterSetter: true}" ng-if="c.depsLoaded"&gt;
+&lt;/sp-date-picker&gt;
+&lt;sp-custom-date-picker sn-change="fieldValue(newValue, displayValue)" 
+                       ng-switch-when="glide_date_time" 
+                       field="field" 
+                       sn-disabled="field.isReadonly()" 
+                       ng-model="field.stagedValue" 
+                       ng-model-options="{getterSetter: true}" 
+                       sn-include-time="true" 
+                       ng-if="c.depsLoaded"&gt;
+&lt;/sp-custom-date-picker&gt;
+&lt;sp-reference-element ng-switch-when="glide_list" field="field" sn-select-width="100%" ref-table="::formModel.table" ref-id="formModel.sys_id" glide-form="getGlideForm()" record-values="getEncodedRecordValues()" sn-options="{multiple: true, placeholder: field.placeholder}" sn-disabled="field.isReadonly()"&gt;
+&lt;/sp-reference-element&gt;
+&lt;sp-glyph-picker ng-switch-when="glyphicon" field="field" sn-disabled="field.isReadonly()"&gt;
+&lt;/sp-glyph-picker&gt;
+&lt;sp-html-editor ng-switch-when="xml" field="field" id="sp_formfield_{{::field.name}}" class="form-control" data-length="4000" sn-disabled="field.isReadonly()" sn-change="stagedValueChange()" sn-blur="fieldValue(field.stagedValue)" glide-form="getGlideForm()" ng-if="c.depsLoaded"&gt;
+&lt;/sp-html-editor&gt;
+&lt;sp-html-editor ng-switch-when="html_template" class="form-control" field="field" id="sp_formfield_{{::field.name}}" data-length="4000" sn-disabled="field.isReadonly()" sn-change="stagedValueChange()" sn-blur="fieldValue(field.stagedValue)" glide-form="getGlideForm()" ng-if="c.depsLoaded"&gt;
+&lt;/sp-html-editor&gt;
+&lt;sp-script-editor ng-switch-when="json" class="form-control" field="field" id="sp_formfield_{{::field.name}}" data-length="4000" sn-disabled="field.isReadonly()" sn-change="stagedValueChange()" sn-blur="fieldValue(field.stagedValue)" glide-form="getGlideForm()" ng-if="c.depsLoaded"&gt;
+&lt;/sp-script-editor&gt;
+&lt;sp-mask-element ng-switch-when="masked" field="field" placeholder="field.placeholder" sn-disabled="field.isReadonly()" sn-change="stagedValueChange()" glide-form="getGlideForm()"&gt;
+&lt;/sp-mask-element&gt;
+&lt;sp-radio-option ng-switch-when="multiple_choice" glide-form="getGlideForm()" field="field"&gt;
+&lt;/sp-radio-option&gt;
+&lt;sp-textarea ng-switch-when="multi_two_lines" field="field" name="{{::field.name}}" id="sp_formfield_{{::field.name}}" class="form-control" ng-model="field.stagedValue" ng-change="stagedValueChange()" data-type="{{::field.type}}" ng-readonly="field.isReadonly()"&gt;
+&lt;/sp-textarea&gt;
+&lt;fieldset ng-switch-when="numericscale" class="radio" id="sp_formfield_{{::field.name}}" role="radiogroup" aria-labelledby="sp_radio_down_label_{{::field.name}}"&gt;
+  &lt;legend class="sr-only" id="sp_radio_down_label_{{::field.name}}"&gt;
+    &lt;span ng-show="field.isMandatory() &amp;&amp; !field.mandatory_filled()"&gt;
+      Required -
+    &lt;/span&gt;
+    &lt;span ng-show="field.isMandatory() &amp;&amp; field.mandatory_filled()"&gt;
+      Required filled -
+    &lt;/span&gt;
+    {{::field.label}}
+  &lt;/legend&gt;
+  &lt;label tabindex="-1" ng-repeat="c in field.choices" for="sp_formfield_{{::field.name}}"&gt;
+    &lt;input type="radio" value="{{c.value}}" ng-model="fieldValue" ng-model-options="{getterSetter: true}" ng-checked="field.value == c.value" ng-disabled="field.isReadonly()" role="radio" aria-checked="{{field.value == c.value}}"&gt;
+    &lt;/input&gt;
+  &lt;span style="margin-right: 1rem;"&gt;
+    {{c.label}}
+  &lt;/span&gt;
+  &lt;/label&gt;
+&lt;/fieldset&gt;
+&lt;sp-currency-element ng-switch-when="price" field="field" sn-disabled="field.isReadonly()" sn-change="stagedValueChange()" sn-blur="fieldValue(field.stagedValue)" glide-form="getGlideForm()"&gt;
+&lt;/sp-currency-element&gt;
+&lt;sp-currency-element ng-switch-when="currency" field="field" sn-disabled="field.isReadonly()" sn-change="stagedValueChange()" sn-blur="fieldValue(field.stagedValue)" glide-form="getGlideForm()"&gt;
+&lt;/sp-currency-element&gt;
+&lt;input ng-switch-when="password" type="password" name="{{::field.name}}" id="sp_formfield_{{::field.name}}" autocomplete="off" class="form-control" ng-model="field.stagedValue" ng-change="stagedValueChange()" ng-disabled="field.isReadonly()"&gt;
+&lt;/input&gt;
+&lt;input ng-switch-when="password2" type="password" name="{{::field.name}}" id="sp_formfield_{{::field.name}}" autocomplete="off" class="form-control" ng-model="field.stagedValue" ng-change="stagedValueChange()" ng-disabled="field.isReadonly()"&gt;
+&lt;/input&gt;
+&lt;sp-code-mirror ng-switch-when="properties" class="form-control" mode="properties" field="field" id="sp_formfield_{{::field.name}}" data-length="4000" sn-disabled="field.isReadonly()" sn-change="stagedValueChange()" sn-blur="fieldValue(field.stagedValue)" glide-form="getGlideForm()" ng-if="c.depsLoaded"&gt;
+&lt;/sp-code-mirror&gt;
+&lt;sp-reference-field ng-switch-when="reference" id="sp_formfield_reference_{{::field.name}}" ng-class="{'field-has-reference': field.value != '', 'field-empty-reference': field.value == ''}"&gt;
+&lt;/sp-reference-field&gt;
+&lt;sp-script-editor ng-switch-when="script_server" class="form-control" field="field" id="sp_formfield_{{::field.name}}" data-length="4000" sn-disabled="field.isReadonly()" sn-change="stagedValueChange()" sn-blur="fieldValue(field.stagedValue)" glide-form="getGlideForm()" ng-if="c.depsLoaded"&gt;
+&lt;/sp-script-editor&gt;
+&lt;sp-script-editor ng-switch-when="script" class="form-control" field="field" id="sp_formfield_{{::field.name}}" data-length="4000" sn-disabled="field.isReadonly()" sn-change="stagedValueChange()" sn-blur="fieldValue(field.stagedValue)" glide-form="getGlideForm()" ng-if="c.depsLoaded"&gt;
+&lt;/sp-script-editor&gt;
+&lt;sn-table-reference ng-switch-when="table_name" field="field" sn-change="fieldValue(newValue)" sn-disabled="field.isReadonly()"&gt;
+&lt;/sn-table-reference&gt;
+&lt;sp-textarea ng-switch-when="textarea" field="field" name="{{::field.name}}" id="sp_formfield_{{::field.name}}" class="form-control" ng-model="field.stagedValue" ng-change="stagedValueChange()" data-type="{{::field.type}}" ng-readonly="field.isReadonly()"&gt;
+&lt;/sp-textarea&gt;
+&lt;sp-tinymce-editor ng-switch-when="html" name="{{::field.name}}" text-id="sp_formfield_{{::field.sys_id || field.name}}" ng-model="field.stagedValue" ng-model-options="{getterSetter: true}" sn-blur="fieldValue(field.stagedValue)" field="field" glide-form="getGlideForm()" ng-change="stagedValueChange()" attachment-guid="c.getAttachmentGuid()"&gt;
+&lt;/sp-tinymce-editor&gt;
+&lt;sp-tinymce-editor ng-switch-when="translated_html" name="{{::field.name}}" text-id="sp_formfield_{{::field.sys_id || field.name}}" ng-model="field.stagedValue" sn-blur="fieldValue(field.stagedValue)" ng-model-options="{getterSetter: true}" field="field" glide-form="getGlideForm()" ng-change="stagedValueChange()" attachment-guid="c.getAttachmentGuid()"&gt;
+&lt;/sp-tinymce-editor&gt;
+&lt;span ng-switch-when="user_image"&gt;
+  &lt;img ng-if="field.displayValue" ng-src="{{field.displayValue}}" style="max-height: 128px; max-width: 128px;"&gt;
+  &lt;/img&gt;
+&lt;sn-image-uploader ng-if="!field.isReadonly()" table-name="{{formModel.table}}" sys-id="{{formModel._attachmentGUID || formModel.sys_id}}" field-name="{{::field.name}}" read-only="field.isReadonly()" on-upload="onImageUpload(thumbnail, sys_id)" on-delete="onImageDelete()" upload-message="{{field.isMandatory() &amp;&amp; !field.mandatory_filled() ? 'Required -' : ''}} Upload an image" src="field.displayValue"&gt;
+&lt;/sn-image-uploader&gt;
+&lt;/span&gt;
+&lt;sp-widget ng-switch-when="widget" widget="field.widget" page="{g_form: getGlideForm(), field: field, fieldValue: fieldValue}"&gt;
+&lt;/sp-widget&gt;
+&lt;sp-widget ng-switch-when="widget_value" widget="field.widget" page="{g_form: getGlideForm(), field: field, fieldValue: fieldValue}"&gt;
+&lt;/sp-widget&gt;
+&lt;span ng-switch-when="integer"&gt;
+  &lt;input name="{{::field.name}}" id="sp_formfield_{{::field.name}}" class="form-control" ng-readonly="field.isReadonly()" ng-model="field.stagedValue" ng-change="stagedValueChange()" ng-blur="formatNumber()" autocomplete="off"&gt;
+  &lt;/input&gt;
+&lt;/span&gt;
+&lt;span ng-switch-when="decimal"&gt;
+  &lt;input name="{{::field.name}}" id="sp_formfield_{{::field.name}}" class="form-control" ng-readonly="field.isReadonly()" ng-model="field.stagedValue" ng-change="stagedValueChange()" ng-blur="formatNumber()" autocomplete="off"&gt;
+  &lt;/input&gt;
+&lt;/span&gt;
+&lt;sp-catalog-variable ng-if="field._cat_variable" ng-switch-when="sc_multi_row"&gt;
+&lt;/sp-catalog-variable&gt;
+&lt;sp-email-element ng-switch-when="email" field="field" glide-form="getGlideForm()"&gt;
+&lt;/sp-email-element&gt;
+&lt;span ng-switch-default="true"&gt;
+  &lt;input ng-if="::!field.max_length || 256 &amp;gt; field.max_length || field._force_single_line" name="{{::field.name}}" id="sp_formfield_{{::field.name}}" class="form-control" maxlength="{{::field.max_length}}" data-type="{{::field.type}}" ng-model="field.stagedValue" ng-model-options="{allowInvalid: true}" ng-change="stagedValueChange()" autocomplete="off" ng-readonly="field.isReadonly()" ng-attr-placeholder="{{field.placeholder}}" type="text" title="{{accessible ? field.hint : ''}}" tooltip-top="true" tooltip-toggle="{{accessible}}" aria-required="{{field.mandatory_filled()}}"&gt;
+  &lt;/input&gt;
+&lt;sp-textarea ng-if="::field.max_length &amp;gt;= 256 &amp;amp;&amp;amp; !field._force_single_line" field="field" name="{{::field.name}}" id="sp_formfield_{{::field.name}}" class="form-control" data-type="{{::field.type}}" ng-model="field.stagedValue" ng-model-options="{allowInvalid: true}" ng-change="stagedValueChange()" ng-readonly="field.isReadonly()"&gt;
+&lt;/sp-textarea&gt;
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;div ng-show="field.messages"&gt;
+  &lt;div ng-repeat="message in field.messages | unique: 'message'" class="wrapper-xs r m-t-xs" ng-class="{'bg-danger': message.type == 'error', 'bg-info': message.type == 'info'}"&gt;
+    {{message.message}}
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_ng_template&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1261406004</payload_hash>
+<remote_update_set display_value="Custom Service Portal Date-Time Picker">a5d7b981dba40010b914e9c9489619b9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>tgoodhew</sys_created_by>
+<sys_created_on>2019-10-15 18:47:21</sys_created_on>
+<sys_id>a9d7b981dba40010b914e9c9489619ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16dd0908c470000001</sys_recorded_at>
+<sys_updated_by>tgoodhew</sys_updated_by>
+<sys_updated_on>2019-10-15 18:47:21</sys_updated_on>
+<table/>
+<target_name>sp_form_field.xml</target_name>
+<type>Angular ng-template</type>
+<update_domain>global</update_domain>
+<update_guid>d63c694d07e0001094bf988278868572</update_guid>
+<update_guid_history>d63c694d07e0001094bf988278868572:1261406004,92dba945e5640010a67e36dba37b1ade:2131938943,a50b6dc101640010da249ab0ce824db1:1196691715,0067a989afe00010d9fb71997303720b:-867300377,3047a945e46400105e2478fec5b3c750:1354745369,060d01891ee000106575ba62a1eb239b:-867300377,d9bc858906e00010efc8fa065c385132:-766464971,cc8c058978e00010da1e9dd29cd78463:1354745369,f72c4d45a4e00010a27f51c60ff2fb62:-867300377,530cc909e4e0001047743b4fc489bb2f:467132295,19ea8909d8e000108d5b708774ed6bd3:1093273785,b3da0185cae0001075c62b1d895a8c33:-315532587,d028c945e4e00010cf7bfbd9c4f7a895:-2044283485,cbd6c505b9e000106da05cd17ab25b94:-698923897,5ab68d8dd9a0001040535cfff454f82b:1093273785,2f27f441b2a000108d63db657b5b7a45:-698923897,2c453841bba00010496f0e4b9647e723:-1344634186,6074f04132a000101c399ad53562f1b8:1667844818,aa64f44193a00010f78992ea3e326b41:-1088631072,b9c3300ddb6000109fa5fdd308f57a96:1667844818</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_angular_provider_f4aa7cc5dba00010b914e9c948961992</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_angular_provider"&gt;&lt;sp_angular_provider action="INSERT_OR_UPDATE"&gt;&lt;name&gt;spCustomDatePicker&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function (spConf, $rootScope, $document, $window, spAriaUtil, i18n, spDatePickerUtil, select2EventBroker, spUtil) {
+	var dateFormat = g_user_date_format || spConf.SYS_DATE_FORMAT;
+	var dateTimeFormat = g_user_date_time_format || spConf.SYS_TIME_FORMAT;
+	var keyMap = {
+		ArrowLeft: {date: 'decrementDays', time: null},
+		Left: {date: 'decrementDays', time: null},
+		ArrowRight: {date: 'incrementDays', time: null},
+		Right: {date: 'incrementDays', time: null},
+		ArrowUp: {date: 'decrementWeeks', time: 'incrementMinutes'},
+		Up: {date: 'decrementWeeks', time: 'incrementMinutes'},
+		ArrowDown: {date: 'incrementWeeks', time: 'decrementMinutes'},
+		Down: {date: 'incrementWeeks', time: 'decrementMinutes'},
+		AltUp: 'toggleDateTimePicker',
+		AltArrowUp: 'toggleDateTimePicker',
+		AltDown: 'toggleDateTimePicker',
+		AltArrowDown: 'toggleDateTimePicker',
+		PageUp: {date: 'decrementMonths', time: 'incrementHours'},
+		PageDown: {date: 'incrementMonths', time: 'decrementHours'},
+		AltPageUp: {date: 'decrementYears', time: null},
+		AltPageDown: {date: 'incrementYears' ,time: null},
+		Home: {date: 'startOfCurrentMonth', time: null},
+		End: {date: 'endOfCurrentMonth', time: null}
+	};
+	var isChrome = $window.navigator.userAgent.indexOf("Chrome") &gt; -1;
+	var isSafari = !isChrome &amp;&amp; $window.navigator.userAgent.indexOf("Safari") &gt; -1;
+	var enableDateTranslation = $window.NOW.sp.enableDateTranslation;
+															
+	function onShowDatePicker(picker) {
+		setArialabels(picker);
+		setShowDatePickerFocus(picker, picker.date, "open");
+	}
+															
+	function attachKeyboardEvent(picker) {
+		picker.widget.on('keydown', $.proxy(onKeydownEvt, this, picker));
+		picker.widget.on('keyup', $.proxy(onKeyupEvt, this, picker));
+		picker.widget.on('click', '.datepicker .day div, .datepicker .day', $.proxy(onClickEvt, this, picker));
+	}
+
+	function detachKeyboardEvent(picker) {
+		picker.widget.off('keydown');
+		picker.widget.off('keyup');
+		picker.widget.off('click', '.datepicker .day div, .datepicker .day');
+	}
+
+	function onKeyupEvt(picker, e) {
+		e.stopPropagation();
+		e.preventDefault();
+	}
+
+	function onDpToggle(picker, e, openMessage) {
+		var toggleElement = setToggleElementArialabel(picker);
+		if (openMessage) {
+			setArialabel(toggleElement, openMessage + " " + toggleElement.getAttribute('aria-label'));
+		}
+		toggleElement.blur();
+		setTimeout(function() {
+			toggleElement.focus();
+		}, 150);
+	}
+
+	function onClickEvt(picker, e) {
+		if (picker.options.pickTime) {
+			setTimeout(function() {
+				setShowDatePickerFocus(picker, picker.date, "click");
+			}, 200);
+		} else
+		hidePicker(picker);
+	}
+
+	function setArialabels(picker) {
+		setMonthDayYearArialabel(picker);
+		if (picker.options.pickTime) {
+			setToggleElementArialabel(picker);
+			setTimeArrowElementsArialabel(picker);
+		}
+	}
+
+	function setMonthDayYearArialabel(picker) {
+		if(isSafari) return;
+
+		var dates = picker.widget.find('.datepicker .day'),
+		currentDate = moment(picker.date);
+		$(dates).each(function(index, date) {
+			var clone = currentDate.clone(),
+			div = $(date).find('div')[0];
+
+			if($(date).hasClass("old")) {
+				clone.subtract("1", "month");
+			} else if ($(date).hasClass("new")) {
+				clone.add("1", "month");
+			}
+
+			clone.date(div.innerHTML);
+			var dateText = spDatePickerUtil.formattedDate(picker, clone);
+			div.setAttribute('aria-label', dateText);
+		});
+	}
+
+	function setTimeArrowElementsArialabel(picker) {
+		setTimeArrowElementArialabel(picker, 'incrementMinutes');
+		setTimeArrowElementArialabel(picker, 'decrementMinutes');
+		setTimeArrowElementArialabel(picker, 'incrementHours');
+		setTimeArrowElementArialabel(picker, 'decrementHours');
+	}
+
+	function setTimeArrowElementArialabel(picker, action) {
+		var arrowElement = picker.widget.find('.timepicker [data-action=' + action + ']');
+		if(arrowElement.length &gt; 0) {
+			setArialabel(arrowElement[0], action);
+		}
+	}
+
+	function setHideDatePickerFocus(picker) {
+		var calendarButtonElement = picker.element.find('button');
+		var closeMessage = (picker.options.pickTime ? i18n.getMessage('date time') : i18n.getMessage('date')) + " " + i18n.getMessage('picker is closed');
+
+		if(calendarButtonElement.length &gt; 0) {
+			setArialabel(calendarButtonElement[0], closeMessage + ". " + i18n.getMessage('Show calendar'));
+			calendarButtonElement[0].focus();
+			setTimeout(function() {
+				setArialabel(calendarButtonElement[0], i18n.getMessage('Show calendar'));
+			}, 3000);
+		}
+	}
+
+	function setHideDatePickerFocusPrev(picker) {
+		var previousElement = picker.element.prev();
+		if (previousElement.length &gt; 0) {
+			previousElement[0].focus();
+		}
+	}
+
+	function setToggleElementArialabel(picker) {
+		var showType = spDatePickerUtil.datePickerShowType(picker),
+		toggleElement = picker.widget.find('.accordion-toggle a');
+		setArialabel(toggleElement[0], showTypeMessage(picker) + i18n.getMessage("Toggle date time picker"));
+		return toggleElement[0];
+	}
+
+	function showTypeMessage(picker) {
+		var showType = spDatePickerUtil.datePickerShowType(picker);
+		return i18n.getMessage('showing') + " " + i18n.getMessage(showType) + " " + i18n.getMessage('picker') + ". ";
+	}
+
+	function setShowDatePickerFocus(picker, date, action) {
+		var showType = spDatePickerUtil.datePickerShowType(picker),
+		formattedDate = spDatePickerUtil.formattedDate(picker, date),
+			openMessage = getOpenMessage(picker);
+
+		if (!action || action.indexOf("toggleDateTimePicker") !== -1) {
+			return;
+		}
+
+		if (showType === "date") {
+			var dayElement = picker.widget.find('.datepicker-days td.active div');
+
+			if (dayElement.length &gt; 0) {
+				var label = formattedDate;
+				if (action === "open") {
+					label = openMessage  + (picker.options.pickTime ? showTypeMessage(picker) : "") + label;
+					setArialabel(dayElement[0], label);
+				} else {
+					if(!isSafari) {
+						setArialabel(dayElement[0], label);
+					}
+				}
+				dayElement[0].blur();
+				setTimeout(function() {
+					dayElement[0].focus();
+				}, 50);
+			}
+		}
+
+		if (showType === "time") {
+			if(action === "open") {
+				onDpToggle(picker, null, openMessage);
+			} else if (action === "togglePeriod") {
+				var togglePeriodElement = picker.widget.find('.timepicker [data-action=' + action + ']');
+				setArialabel(togglePeriodElement[0], action + " " + togglePeriodElement[0].innerText);
+				togglePeriodElement[0].blur();
+				setTimeout(function() {
+					togglePeriodElement[0].focus();
+				}, 100);
+			} else {
+				var arrowElement = picker.widget.find('.timepicker [data-action=' + action + ']');
+				setArialabel(arrowElement[0], action + " " + (isSafari ? "" : formattedDate));
+				arrowElement[0].blur();
+				setTimeout(function() {
+					arrowElement[0].focus();
+				}, 100);
+			}
+		}
+	}
+
+	function getOpenMessage(picker) {
+		return (picker.options.pickTime ? i18n.getMessage('date time') : i18n.getMessage('date')) + " " + i18n.getMessage('picker is opened') + ". ";
+	}
+
+	function setArialabel(element, label) {
+		if(element) {
+			element.setAttribute('aria-label', label);
+		}
+	}
+
+	function onDpAction(e) {
+		setShowDatePickerFocus(e.picker, e.date, e.action)
+	}
+
+	function onDpChangeAria(e, picker, element) {
+		if(isSafari) {
+			var el = element.find('.form-control');
+			el[0].setAttribute('aria-label', spDatePickerUtil.formattedDayTime(picker, e.date));
+		}
+		if (e.date.month() !== e.oldDate.month() || e.date.year() !== e.oldDate.year()) {
+			setMonthDayYearArialabel(picker);
+		}
+	}
+
+	function hidePicker(picker) {
+		var input = spDatePickerUtil.getSPDateickerInput(picker);
+		if (input &amp;&amp; input.val() === '') {
+			picker.setDate(enableDateTranslation ? moment().format(picker.format) : moment().locale("en").format(picker.format));
+		}
+		picker.hide();
+		setHideDatePickerFocus(picker);
+	}
+
+	function setTimeArrowElementFocus(picker, action) {
+		var arrowElement = picker.widget.find('.timepicker [data-action=' + action + ']');
+		arrowElement[0].focus();
+	}
+
+	function onKeydownEvt(picker, e) {
+		var showType = spDatePickerUtil.datePickerShowType(picker);
+		if (e.keyCode === 9) {
+			if (picker.options.pickTime) {
+				if (showType === "date") {
+					if (e.shiftKey) {
+						e.stopPropagation();
+						e.preventDefault();
+						if ($(e.target).parent().hasClass('accordion-toggle')) {
+							setShowDatePickerFocus(picker, picker.date, "tab");
+						} else if ($(e.target).parent().hasClass('day')) {
+							picker.hide();
+							setHideDatePickerFocusPrev(picker);
+						}
+					} else if ($(e.target).parent().hasClass('accordion-toggle')) {
+						hidePicker(picker);
+					}
+				}
+				if(showType === "time") {
+					if(e.shiftKey) {
+						e.stopPropagation();
+						e.preventDefault();
+						if($(e.target).parent().hasClass('accordion-toggle')) {
+							picker.hide();
+							setHideDatePickerFocusPrev(picker);
+						} else if($(e.target).attr("data-action") === "incrementHours") {
+							var toggleElement = picker.widget.find('.accordion-toggle a');
+							toggleElement[0].focus();
+						} else if ($(e.target).attr("data-action") === "incrementMinutes") {
+							setTimeArrowElementFocus(picker, 'incrementHours');
+						} else if ($(e.target).attr("data-action") === "decrementHours") {
+							setTimeArrowElementFocus(picker, 'incrementMinutes');
+						} else if($(e.target).attr("data-action") === "decrementMinutes") {
+							setTimeArrowElementFocus(picker, 'decrementHours');
+						}
+					} else {
+						if($(e.target).attr("data-action") === "decrementMinutes") {
+							hidePicker(picker);
+						} else {
+							e.stopPropagation();
+							e.preventDefault();
+							if($(e.target).parent().hasClass('accordion-toggle')) {
+								setTimeArrowElementFocus(picker, 'incrementHours');
+							} else if($(e.target).attr("data-action") === "incrementHours") {
+								setTimeArrowElementFocus(picker, 'incrementMinutes');
+							} else if ($(e.target).attr("data-action") === "togglePeriod") {
+								setTimeArrowElementFocus(picker, 'decrementHours');
+							} else if ($(e.target).attr("data-action") === "decrementHours") {
+								setTimeArrowElementFocus(picker, 'decrementMinutes');
+							} else if ($(e.target).attr("data-action") === "incrementMinutes") {
+								setTimeArrowElementFocus(picker, 'decrementHours');
+							}
+						}
+					}
+				}
+			} else {
+				hidePicker(picker);
+			}
+			return;
+		}
+
+		if (e.keyCode === 13 &amp;&amp; $(e.target).attr("data-action")) {
+			return;
+		}
+		e.stopPropagation();
+		e.preventDefault();
+		if(e.keyCode === 32) {
+			setTimeout(function() {
+				hidePicker(picker);
+			}, 200);
+		} else if (e.keyCode === 27 || e.keyCode === 13) {
+			hidePicker(picker);
+		} else  {
+			var maybeAltHandler = e.altKey &amp;&amp; keyMap["Alt" + e.key],
+			action = maybeAltHandler || keyMap[e.key];
+			if(action &amp;&amp; action instanceof Object) {
+				action = action[showType];
+			}
+			if(action) {
+				if(showType === "time" &amp;&amp; action.indexOf("toggle") === -1) {
+					var arrowElement = picker.widget.find('.timepicker [data-action=' + action + ']');
+					$(arrowElement[0]).trigger('click');
+				} else {
+					var actionEvent = jQuery.Event("doAction", {action: action});
+						picker.widget.trigger(actionEvent);
+					}
+				}
+			}
+			if (maybeAltHandler &amp;&amp; (e.keyCode === 38 || e.keyCode === 40)) {
+				spAriaUtil.sendLiveMessage(i18n.getMessage('Switching to') + " " + spDatePickerUtil.datePickerShowType(picker) + " " + i18n.getMessage('picker'));
+			}
+		}
+	if ($rootScope.user &amp;&amp; $rootScope.user.date_format)
+		dateFormat = $rootScope.user.date_format;
+	if ($rootScope.user &amp;&amp; $rootScope.user.date_time_format)
+		dateTimeFormat = $rootScope.user.date_time_format;
+	return {
+		template: '&lt;div ng-class="{\'input-group\': !snDisabled, \'has-error\': field.isInvalidDateFormat || field.isInvalid}" style="width: 100%;"&gt;' + '&lt;input id="sp_formfield_{{::field.name}}" aria-live="{{::live}}" aria-label="{{::field.label}} {{formattedDateAria}}" type="text" name="{{field.name}}" class="form-control" placeholder="{{field.placeholder}}" title="{{g_accessibility ? translations[\'Enter date in format\'] + \' \': \'\'}}{{g_accessibility ? format : \'\'}}" tooltip-top="true" tooltip-enable="{{g_accessibility}}" ng-model="formattedDate" ng-model-options="{updateOn: \'blur\', getterSetter: true}" ng-readonly="snDisabled" /&gt;' + '&lt;span class="input-group-btn" ng-hide="snDisabled"&gt;' + '&lt;input type="hidden" class="datepickerinput" ng-model="formattedDate" ng-readonly="true" /&gt;' + '&lt;button class="btn btn-default" type="button" role="button" aria-label="{{translations[\'Show calendar\']}}"&gt;' + '&lt;glyph sn-char="calendar" /&gt;' + '&lt;/button&gt;' + '&lt;/span&gt;' + '&lt;span ng-if="field.isInvalidDateFormat" class="sp-date-format-info" style="display:table-row;" aria-hidden="true"&gt;{{translations[\'Date in format\']}} {{format}}&lt;/span&gt;'+ '&lt;/div&gt;',
+		restrict: 'E',
+		replace: true,
+		require: '?ngModel',
+		scope: {
+			field: '=',
+			snDisabled: '=',
+			snIncludeTime: '=',
+			snChange: '&amp;'
+		},
+		controller: function($scope) {
+			$scope.live = isSafari ? "polite" : "";
+		},
+		link: function(scope, element, attrs, ngModel) {
+			scope.g_accessibility = spAriaUtil.isAccessibilityEnabled();
+			var format,
+				includeTime = scope.snIncludeTime,
+				isUserEnteredValue = false,
+				initDateTimePicker = true;
+			format = includeTime ? dateTimeFormat.trim() : dateFormat.trim();
+			format = format.replace(/y/g, 'Y').replace(/d/g, 'D').replace(/a/g, 'A');
+			scope.format = format;
+			var dp = element.find('.input-group-btn').datetimepicker({
+				keepInvalid: true,
+				pickTime: scope.snIncludeTime === true,
+				format: scope.format,
+				locale: spUtil.localeMap[g_lang],
+				sideBySide: true,
+				language: spUtil.localeMap[g_lang]
+			}).on('dp.change', onDpChange);
+			element.find('.form-control').on('blur', function (e) {
+				var value = e.target.value;
+				setFieldValue('newValue', '');
+				setFieldValue('newValue', value);
+			}).on('keyup', function (e) {
+				if (e.keyCode === 13) {
+					var value = e.target.value;
+					setFieldValue('newValue', '');
+					setFieldValue('newValue', value);
+				} else {
+					isUserEnteredValue = true;
+				}
+			});
+			function validate(formattedDate) {
+				scope.field.isInvalidDateFormat = false;
+				scope.field.isInvalid = false;
+				return spDatePickerUtil.validate(dp, format, formattedDate, isUserEnteredValue, function(error){
+					if(error){
+						spAriaUtil.sendLiveMessage(scope.translations["Entered date not valid. Enter date in format"] + " " + format);
+						scope.field.isInvalidDateFormat = true;
+						if(g_datepicker_validation_enable)
+							scope.field.isInvalid = true;
+					}
+				});
+			}
+			function closeOnTouch(evt) {
+				if (!jQuery.contains(dp.data('DateTimePicker').widget[0], evt.target)) {
+					dp.data('DateTimePicker').hide();
+				}
+			}
+			function bindTouchClose() {
+				if(initDateTimePicker) {
+					initDateTimePicker = false;
+					attachKeyboardEvent(dp.data('DateTimePicker'));
+				}
+				$document.on('touchstart', closeOnTouch);
+				attachOnscrollEvent();
+				onShowDatePicker(dp.data('DateTimePicker'));
+			}
+			function unBindTouchClose() {
+				$document.off('touchstart', closeOnTouch);
+				detachOnscrollEvent();
+			}
+			function detachOnscrollEvent () {
+				var scrollContainer = $('.sp-scroll');
+				if(scrollContainer) {
+					$(scrollContainer[0]).off( "scroll" );
+				}
+				var containers = $('.sp-row-content &gt; div .panel .panel-body');
+				if(containers) {
+					for (var i = 0; i &lt; containers.length; i++) {
+						$(containers[i]).off( "scroll" );
+					}
+				}
+			}
+			function attachOnscrollEvent() {
+				var lazyPlace = _.debounce(onscrollEvt, 100);
+				var scrollContainer = $('.sp-scroll');
+				if(scrollContainer) {
+					$(scrollContainer[0]).scroll(lazyPlace.bind(null, scrollContainer[0]));
+				}
+				var containers = $('.sp-row-content &gt; div .panel .panel-body');
+				if(containers) {
+					for (var i = 0; i &lt; containers.length; i++) {
+						$(containers[i]).scroll(lazyPlace.bind(null, containers[i]));
+					}
+				}
+			}
+			function onscrollEvt(container) {
+				var picker = dp.data('DateTimePicker');
+				if(isElementInViewport(picker.element, container)) {
+					picker.place(container);
+				} else {
+					picker.hide();
+				}
+			}
+			function isElementInViewport(el, scrollContainer) {
+				if (typeof jQuery === "function" &amp;&amp; el instanceof jQuery) {
+					el = el[0];
+				}
+				var rect = el.getBoundingClientRect(),
+					scrollContainerRect = scrollContainer.getBoundingClientRect();
+				return (
+					rect.top &gt;= scrollContainerRect.top &amp;&amp;
+					rect.left &gt;= scrollContainerRect.left &amp;&amp;
+					rect.bottom &lt;= scrollContainerRect.bottom &amp;&amp;
+					rect.right &lt;= scrollContainerRect.right
+				);
+			}
+			dp.on('dp.show', bindTouchClose).on('dp.hide', unBindTouchClose);
+			dp.on('dp.action', function(e) {
+				onDpAction(e);
+			});
+			dp.on('dp.toggle', function(e) {
+				onDpToggle(dp.data('DateTimePicker'), e);
+			});
+			dp.on('dp.hide', function (e) {
+				if (ngModel) {
+					setFieldValue('newValue', scope.field.stagedValue);
+				}
+			});
+			scope.$on('sp.spFormField.unFocus', function() {
+				validate(scope.field.value);
+			});
+			function onDpChange(e) {
+				isUserEnteredValue = false;
+				var translatedDate = enableDateTranslation ? e.date.format(format) : e.date.locale("en").format(format);
+				scope.formattedDate(translatedDate);
+				scope.formattedDateAria = spDatePickerUtil.formattedDate(dp.data('DateTimePicker'), e.date);
+				if (!scope.$root.$$phase)
+					scope.$apply();
+				onDpChangeAria(e, dp.data('DateTimePicker'), element);
+			}
+			function setFieldValue(key, value) {
+				if (scope.snChange) {
+					var change = {};
+					change[key] = value;
+					scope.snChange(change);
+				}
+			}
+			if (ngModel) {
+				ngModel.$parsers.push(validate);
+				ngModel.$render = function() {
+					var formattedDate = ngModel.$viewValue;
+					if (formattedDate &amp;&amp; formattedDate !== null &amp;&amp; formattedDate !== '') {
+						if (!spDatePickerUtil.isValidDate(formattedDate, format)) {
+							var validFormattedDate = null;
+							if (enableDateTranslation) {
+								validFormattedDate = moment(formattedDate).format(format);
+							} else {
+								validFormattedDate = moment(formattedDate).locale("en").format(format);
+							}
+							if (validFormattedDate !== "Invalid date") {
+								formattedDate = validFormattedDate;
+							}
+						}
+					}
+					validate(formattedDate);
+				};
+				scope.formattedDate = function (formattedValue) {
+					if (angular.isDefined(formattedValue)) {
+						ngModel.$setViewValue(formattedValue);
+						setFieldValue('stagedValue', formattedValue);
+					}
+					var formattedDate = ngModel.$viewValue;
+					if (formattedDate &amp;&amp; formattedDate !== null &amp;&amp; formattedDate !== '') {
+						if(!spDatePickerUtil.isValidDate(formattedDate, format)) {
+							var validFormattedDate = null;
+							if (enableDateTranslation) {
+								validFormattedDate = moment(formattedDate).format(format);
+							} else {
+								validFormattedDate = moment(formattedDate).locale("en").format(format);
+							}
+							if(validFormattedDate !== "Invalid date") {
+								formattedDate = validFormattedDate;
+							}
+						}
+					}
+					return formattedDate;
+				};
+			} else {
+				scope.formattedDate = function (formattedValue) {
+					if (angular.isDefined(formattedValue)) {
+						scope.field.value = validate(formattedValue);
+						setFieldValue('newValue', formattedValue);
+					}
+					return scope.field.value;
+				};
+				scope.$watch('field.value', function(newValue, oldValue){
+					if (newValue != oldValue)
+						validate(newValue);
+				});
+			}
+			var select2Unsubscribe = select2EventBroker.subscribeSelect2Opening(function() {
+				if($(dp.data('DateTimePicker').widget[0]).is(":visible"))
+					dp.data('DateTimePicker').hide();
+			});
+			scope.$on('$destroy', function() {
+				dp.off('dp.change', onDpChange);
+				unBindTouchClose();
+				select2Unsubscribe();
+				detachKeyboardEvent(dp.data('DateTimePicker'));
+			});
+			scope.translations = [];
+			i18n.getMessages(["Enter date in format", "Use format", "Entered date not valid. Enter date in format", "Show calendar"], function(msgs){
+				scope.translations = msgs;
+			});
+		}
+	};
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sp_angular_provider&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tgoodhew&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-15 14:50:17&lt;/sys_created_on&gt;&lt;sys_id&gt;f4aa7cc5dba00010b914e9c948961992&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_name&gt;spCustomDatePicker&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_angular_provider_f4aa7cc5dba00010b914e9c948961992&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;tgoodhew&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-15 18:42:57&lt;/sys_updated_on&gt;&lt;type&gt;directive&lt;/type&gt;&lt;/sp_angular_provider&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1074409627</payload_hash>
+<remote_update_set display_value="Custom Service Portal Date-Time Picker">a5d7b981dba40010b914e9c9489619b9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>tgoodhew</sys_created_by>
+<sys_created_on>2019-10-15 18:47:21</sys_created_on>
+<sys_id>e5d7b981dba40010b914e9c9489619ba</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16dd0bafa130000001</sys_recorded_at>
+<sys_updated_by>tgoodhew</sys_updated_by>
+<sys_updated_on>2019-10-15 18:47:21</sys_updated_on>
+<table/>
+<target_name>spCustomDatePicker</target_name>
+<type>Widget Angular Provider</type>
+<update_domain>global</update_domain>
+<update_guid>d1d6bdc1a7a4001011645f9e465936a5</update_guid>
+<update_guid_history>d1d6bdc1a7a4001011645f9e465936a5:-1074409627,ba45f505f1a4001005850fd75374c998:803937211,5d15bdc141a40010ef2aef44ebe5e59e:-355005883,aab4bdc199a40010422e4deabd9cf206:-677752880,aa84b18156a40010012e81f299652e1c:297809747,1524b1c108a400101d9afa231125aeab:81836976,a304b98183a400104a2e9cca8511b26b:1129086832,a0f3b18189a40010af8b6e53a4db4611:1030561907,e493bd011da400107cdbfcbcdf39d3ac:-1156408509,8b0335cd93640010e847f0afd25e7581:793852741,51e13d0115a4001086fb9ba19991c156:39424198,24c1794dd8e000100b995173e0a6ae78:-385410601,ecc0f9cdb36400107ce0e0209b426091:1720029001,2b7035cd276400102f517c72a0ded47b:850712709,3150b98dea6400101f108e8b60e19400:1837848030,b2bf654d97640010ef7a65b47461360b:1720029001,8f7ea10dcf6400103669be2b5d759d14:1674808694,fb4ea94975640010b52b65cbbf13a4ac:-900668763,151e298969640010aefdf926ea0322ab:1720029001,c76d6dc98e640010908555368b145b03:-480190768,595da9498a640010e674947f8ef207a8:-1324016445,ce0d29897c64001098ffd5ec796143a6:-480190768,197c2d45826400100d7513a90cee4d65:-1074409627,34914dc548a000105a950cf0262151a1:283307164</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_ng_pro_sp_widget_46d1c1cddba00010b914e9c948961989</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="DELETE"><sp_angular_provider display_value="spCustomDatePicker">f4aa7cc5dba00010b914e9c948961992</sp_angular_provider><sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>tgoodhew</sys_created_by><sys_created_on>2019-10-15 14:51:27</sys_created_on><sys_id>46d1c1cddba00010b914e9c948961989</sys_id><sys_mod_count>0</sys_mod_count><sys_name>spCustomDatePicker.Header Menu</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_46d1c1cddba00010b914e9c948961989</sys_update_name><sys_updated_by>tgoodhew</sys_updated_by><sys_updated_on>2019-10-15 14:51:27</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+<payload_hash>-1033110088</payload_hash>
+<remote_update_set display_value="Custom Service Portal Date-Time Picker">a5d7b981dba40010b914e9c9489619b9</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>tgoodhew</sys_created_by>
+<sys_created_on>2019-10-15 18:47:21</sys_created_on>
+<sys_id>e9d7b981dba40010b914e9c9489619b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16dcfffb7e00000001</sys_recorded_at>
+<sys_updated_by>tgoodhew</sys_updated_by>
+<sys_updated_on>2019-10-15 18:47:21</sys_updated_on>
+<table/>
+<target_name>spCustomDatePicker.Header Menu</target_name>
+<type>Angular Providers</type>
+<update_domain>global</update_domain>
+<update_guid>01084dc14de00010a487517ebc550983</update_guid>
+<update_guid_history>01084dc14de00010a487517ebc550983:-1033110088,02d1c1cde7a000109b7784e26348e58b:-722473276</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
